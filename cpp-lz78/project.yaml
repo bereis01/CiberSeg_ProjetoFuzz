@@ -1,0 +1,14 @@
+homepage: "https://github.com/bereis01/cpp-lz78"
+main_repo: "https://github.com/bereis01/cpp-lz78"
+primary_contact: ""
+language: c++
+sanitizers:
+  - address
+  - undefined
+  - memory
+architectures:
+  - x86_64
+fuzzing_engines:
+  - afl
+  - honggfuzz
+  - libfuzzer

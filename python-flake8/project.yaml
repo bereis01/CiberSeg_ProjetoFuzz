@@ -1,0 +1,8 @@
+homepage: "https://github.com/PyCQA/flake8"
+language: "python"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+  - undefined
+main_repo: "https://github.com/PyCQA/flake8.git"

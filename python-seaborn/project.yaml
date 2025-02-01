@@ -1,0 +1,9 @@
+homepage: "https://github.com/mwaskom/seaborn"
+language: python
+primary_contact: ""
+main_repo: "https://github.com/mwaskom/seaborn.git"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+  - undefined

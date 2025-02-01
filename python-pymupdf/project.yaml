@@ -1,0 +1,9 @@
+homepage: "https://github.com/pymupdf/PyMuPDF"
+language: python
+primary_contact: ""
+main_repo: "https://github.com/pymupdf/PyMuPDF"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+  - undefined

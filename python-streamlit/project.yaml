@@ -1,0 +1,9 @@
+homepage: "https://github.com/streamlit/streamlit"
+language: python
+primary_contact: ""
+main_repo: "https://github.com/streamlit/streamlit"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
+  - undefined
